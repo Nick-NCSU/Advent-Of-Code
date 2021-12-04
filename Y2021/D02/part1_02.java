@@ -1,5 +1,7 @@
-public class part2 {
-    public static void main(String args[]) {
+package AOC.Y2021.D02;
+
+public class part1_02 {
+    public static void main(String args) {
         String[] arr = {
 			"forward 4",
 			"down 9",
@@ -1003,16 +1005,14 @@ public class part2 {
 			"forward 5"
       	};
       	int depth = 0;
-      	int aim = 0;
-      	int dist = 0;
-      	for(String s : arr) {
+        int dist = 0;
+        for(String s : arr) {
             if(s.charAt(0) == 'f') {
                 dist += Character.getNumericValue(s.charAt(s.length() - 1));
-                depth += aim * Character.getNumericValue(s.charAt(s.length() - 1));
             } else if (s.charAt(0) == 'd') {
-                aim += Character.getNumericValue(s.charAt(s.length() - 1));;
+                depth += Character.getNumericValue(s.charAt(s.length() - 1));
             } else {
-                aim -= Character.getNumericValue(s.charAt(s.length() - 1));;
+                depth -= Character.getNumericValue(s.charAt(s.length() - 1));
             }
         }
         System.out.println(depth*dist);

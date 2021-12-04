@@ -1,15 +1,17 @@
+package AOC.Y2021.D03;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class part2 {
+public class part2_03 {
     public static void main(String[] args) {
 
 
-        List<ArrayList<Integer>> array = new ArrayList<ArrayList<Integer>>();
-        List<ArrayList<Integer>> array2 = new ArrayList<ArrayList<Integer>>();
+        List<ArrayList<Integer>> array = new ArrayList<>();
+        List<ArrayList<Integer>> array2 = new ArrayList<>();
 
         try {
             File file = new File("data.txt");

@@ -1,5 +1,7 @@
-public class part2 {
-    public static void main(String args[]) {
+package AOC.Y2021.D01;
+
+public class part2_01 {
+    public static void main(String[] args) {
       int[] arr = {
 				122,
 				129,

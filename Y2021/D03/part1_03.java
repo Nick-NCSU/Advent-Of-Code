@@ -1,10 +1,10 @@
+package AOC.Y2021.D03;
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
-public class part1 {
+public class part1_03 {
     public static void main(String[] args) {
         try {
             File file = new File("data.txt");
