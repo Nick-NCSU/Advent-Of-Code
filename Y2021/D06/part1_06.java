@@ -19,7 +19,7 @@ public class part1_06 {
                 }
             }
             scanner.close();
-            for(int i = 0; i < 256; i++) {
+            for(int i = 0; i < 80; i++) {
                 int size = fish.size();
                 for(int j = 0; j < size; j++) {
                     if(fish.get(j) == 0) {
