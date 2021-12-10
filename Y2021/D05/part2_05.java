@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class part2_05 {
 	public static void main(String[] args) {
 		try {
-			File file = new File("/home/nick/Desktop/aoc/src/AOC/Y2021/D05/data.txt");
+			File file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D05/data.txt");
 			Scanner scanner = new Scanner(file);
 			int[][] board = new int[1000][1000];
 			while(scanner.hasNextLine()) {

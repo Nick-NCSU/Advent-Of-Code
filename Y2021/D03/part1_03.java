@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class part1_03 {
     public static void main(String[] args) {
         try {
-            File file = new File("data.txt");
+            File file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D03/data.txt");
             Scanner scanner = new Scanner(file);
             int[] arr = new int[12];
             for (int i = 0; i < file.length(); i++) {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class part1_04 {
     public static void main(String[] args) {
         try {
-            File file = new File("/home/nick/Desktop/aoc/src/AOC/Y2021/D04/data.txt");
+            File file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D04/data.txt");
             Scanner scanner = new Scanner(file);
             List<int[][]> boards = new ArrayList<>();
             for (int i = 0; i < file.length(); i++) {
@@ -30,7 +30,7 @@ public class part1_04 {
                 }
             }
             scanner.close();
-            file = new File("/home/nick/Desktop/aoc/src/AOC/Y2021/D04/data2.txt");
+            file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D04/data2.txt");
             scanner = new Scanner(file);
             String[] numbers = scanner.nextLine().split(",");
             for(String numberStr : numbers) {

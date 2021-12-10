@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class part1_08 {
     public static void main(String[] args) {
         try {
-            File file = new File("/home/nick/Desktop/aoc/src/AOC/Y2021/D08/data.txt");
+            File file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D08/data.txt");
             Scanner scanner = new Scanner(file);
             List<String[]> lines = new ArrayList<>();
             while(scanner.hasNextLine()) {

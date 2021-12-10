@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class part2_09 {
 	public static void main(String[] args) {
 		try {
-			File file = new File("/home/nick/Desktop/aoc/src/AOC/Y2021/D09/data.txt");
+			File file = new File("/home/nick/Desktop/Advent-Of-Code/Y2021/D09/data.txt");
 			Scanner scanner = new Scanner(file);
 			int[][] map = new int[100][100];
 			int line = 0;
