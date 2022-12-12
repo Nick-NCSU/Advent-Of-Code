@@ -1,6 +1,6 @@
 m = []
 t = 0
-for x in open('i.txt'):
+for x in open('data.txt'):
   if len(x) > 1:
     t += int(x)
   else:
